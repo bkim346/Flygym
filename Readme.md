@@ -7,7 +7,7 @@ This is a simple project where I followed the [Flygym](https://github.com/NeuroM
 ##  Demo
 
 Here’s a quick look at the fly in action:  
-![Fly walking and tracking odor plume](./outputs/plume_tracking/plume_data/plume_tracking_fly.gif)
+![Fly walking and tracking odor plume](./outputs/plume_tracking/plume_dataset/plume_tracking_fly.gif)
 
 ---
 

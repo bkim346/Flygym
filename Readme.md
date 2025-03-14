@@ -63,16 +63,16 @@ For now, this is a basic walkthrough of the tutorial. Moving forward, I’m plan
 
 ## Project Structure
 
-├── outputs/
-│   └── plume_tracking
-│       └── plume_dataset  
-│           └── plume.hdf5               # Simulated plume         
-│           └── plume_tracking_fly.mp4   # Plume tracking video 
-│           └── plume_tracking_fly.gif   # Plume tracking gif
-├── src/                         # Code file
-│   └── simulation_script.py
-├── requirements.txt
-└── README.md
+- outputs/
+  - plume_tracking/
+    - plume_dataset/
+      - plume.hdf5               # Simulated plume         
+      - plume_tracking_fly.mp4   # Plume tracking video 
+      - plume_tracking_fly.gif   # Plume tracking gif
+- src/
+  - simulation_script.py
+- requirements.txt
+- README.md
 
 Acknowledgments
 Big thanks to the Flygym and NeuroMechFly teams for their awesome tools and documentation.

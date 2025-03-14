@@ -15,7 +15,7 @@ Here’s a quick look at the fly in action:
 
 - **What this is:** A beginner project based on the Flygym tutorial.  
 - **What I did:** Ran the simulation, explored the code, and started understanding how physics engines like MuJoCo are used in these models.  
-- **Why I did it:** To build a foundation for future work in embodied neural simulations and explore its' feasibility for simulating realistic behavior driven by complex neural inputs.
+- **Why I did it:** To build a foundation for future work in embodied neural simulations and explore its feasibility for simulating realistic behavior driven by complex neural inputs.
 
 ---
 

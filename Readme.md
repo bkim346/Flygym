@@ -31,15 +31,19 @@ cd Flygym
 
 pip install -r requirements.txt
 
+4. **Patch phi code if using python <3.9 :**
+
+python patch_phi.py
+
 3. **Generate odor plume:**
 
-python src/Simulate_odorplume.py
+python Simulate_odorplume.py
 
 The plume file I generated is too large to upload it to github. But the seed I used was 777.
 
 4. **Run the simulation:**
 
-python src/plume_tracking.py
+python plume_tracking.py
 
 
 ---
@@ -68,9 +72,10 @@ For now, this is a basic walkthrough of the tutorial. Moving forward, I’m plan
     - plume_dataset/        
       - plume_tracking_fly.mp4   # Plume tracking video 
       - plume_tracking_fly.gif   # Plume tracking gif
-- src/
-  - Simulate_odorplume.py        # Simulate odor plume
-  - plume_tracking.py            # Fly odor tracking simulation code
+
+- Simulate_odorplume.py        # Simulate odor plume
+- plume_tracking.py            # Fly odor tracking simulation code
+- patch_phi.py                 # patch phi code if using python <3.9
 - requirements.txt
 - README.md
 

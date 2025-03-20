@@ -31,17 +31,17 @@ cd Flygym
 
 pip install -r requirements.txt
 
-4. **Patch phi code if using python <3.9 :**
+3. **Patch phi code if using python <3.9 :**
 
 python patch_phi.py
 
-3. **Generate odor plume:**
+4. **Generate odor plume:**
 
 python Simulate_odorplume.py
 
 The plume file I generated is too large to upload it to github. But the seed I used was 777.
 
-4. **Run the simulation:**
+5. **Run the simulation:**
 
 python plume_tracking.py
 
